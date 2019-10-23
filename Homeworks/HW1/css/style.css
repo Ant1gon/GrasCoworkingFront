@@ -1,0 +1,42 @@
+/*body{
+    width: 1250px;
+    height: 1500px;
+}
+header, footer, main{
+    width: 1024px;
+}
+header{
+    height: 90px;
+}
+.footer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1250px;
+    height: 1500px;
+    z-index: 52;
+}
+.Layer_7 {
+    background-image: url("img\Layer7.png");
+    opacity: 0.102;
+    position: absolute;
+    left: 0px;
+    top: 1406px;
+    width: 1250px;
+    height: 1px;
+    z-index: 51;
+}
+.Copyright_©_2012_2013_cssauthor_com {
+    font-size: 15.35px;
+    font-family: "SegoeWPN";
+    color: rgb(144, 144, 144);
+    line-height: 2.345;
+    text-align: left;
+    position: absolute;
+    left: 461.937px;
+    top: 1474.089px;
+    width: 251px;
+    height: 16px;
+    z-index: 50;
+}
+*/
