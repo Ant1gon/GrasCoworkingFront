@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cfc295c-edd7-459b-8da0-7d7554908a63" name="Default Changelist" comment="start creating Structure">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8cfc295c-edd7-459b-8da0-7d7554908a63" name="Default Changelist" comment="start creating Structure" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="416" />
     <option name="y" value="214" />
     <option name="width" value="1346" />
@@ -113,7 +110,7 @@
       <updated>1571847568685</updated>
       <workItem from="1571847569998" duration="5357000" />
       <workItem from="1571860943711" duration="35000" />
-      <workItem from="1571861014378" duration="8967000" />
+      <workItem from="1571861014378" duration="9175000" />
     </task>
     <task id="LOCAL-00001" summary="start creating Structure">
       <created>1571867199002</created>
@@ -126,7 +123,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14359000" />
+    <option name="totallyTimeSpent" value="14567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,7 +136,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
