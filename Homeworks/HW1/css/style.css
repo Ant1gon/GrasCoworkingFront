@@ -1,9 +1,31 @@
 body {
     background-image: url(../img/background.jpg);
+    width: 600px;
+    height: 900px;
     position: absolute;
     z-index: 1;
 }
+ul{
+    list-style: none;
+}
+/*
 header{
     background-image: url(../img/header/background.png);
     height: 89px;
+    display: flex;
+    flex-direction: row;
 }
+.mainElemFirst{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+ float: left;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+}*/
