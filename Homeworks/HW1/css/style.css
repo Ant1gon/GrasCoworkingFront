@@ -2,30 +2,32 @@ body {
     background-image: url(../img/background.jpg);
     width: 600px;
     height: 900px;
+    padding-left: 10%;
+    padding-right: 10%;
     position: absolute;
     z-index: 1;
 }
 ul{
     list-style: none;
 }
+header,.topMenu,.elements,.product{
+    display: flex;
+    flex-direction: row;
+}
 /*
-header{
-    background-image: url(../img/header/background.png);
-    height: 89px;
+.topMenu{
     display: flex;
     flex-direction: row;
 }
-.mainElemFirst{
+.elements{
     display: flex;
     flex-direction: row;
 }
-
-img{
- float: left;
-}
-.nav{
+.product{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: stretch;
+    flex-direction: row;
 }*/
+footer{
+    display: flex;
+    justify-content: center;
+}
