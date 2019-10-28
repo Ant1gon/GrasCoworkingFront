@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Segoe;
+    src: url(/fonts/SegoeWPLight.ttf);
+}
+
 body {
     background-image: url(../img/background.jpg);
     width: 600px;
@@ -14,7 +19,13 @@ header,.topMenu,.elements,.product{
     display: flex;
     flex-flow: row wrap;
     Justify-content: space-between;
+    flex: 1;
 }
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 
 /*
 .topMenu{
@@ -29,7 +40,3 @@ header,.topMenu,.elements,.product{
     display: flex;
     flex-direction: row;
 }*/
-footer{
-    display: flex;
-    justify-content: center;
-}
