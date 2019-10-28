@@ -12,8 +12,10 @@ ul{
 }
 header,.topMenu,.elements,.product{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    Justify-content: space-between;
 }
+
 /*
 .topMenu{
     display: flex;
