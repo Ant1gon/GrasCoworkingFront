@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.videoPlayerWrap {
+  position: relative;
+  width: 400px;
+  height: 300px; }
+  .videoPlayerWrap:hover::before, .videoPlayerWrap:hover::after {
+    opacity: 0; }
+  .videoPlayerWrap::before, .videoPlayerWrap::after {
+    position: absolute; }
+  .videoPlayerWrap::before {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .5; }
+  .videoPlayerWrap::after {
+    content: 'Смотреть видео';
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    color: white;
+    font-weight: bold; }
+
+.videoPlayer {
+  width: 100%;
+  height: 100%; }
+
+.playBtn {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=style.css.map */

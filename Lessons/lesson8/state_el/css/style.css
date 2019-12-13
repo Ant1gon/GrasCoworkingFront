@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.box {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px; }
+  .box .item {
+    width: 100%;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 5px; }
+    .box .item:last-child {
+      margin-bottom: 0; }
+    .box .item__title {
+      padding: 10px; }
+    .box .item__content {
+      padding: 20px;
+      background: #d7d7d7;
+      display: none; }
+    .box .item-active .item__content {
+      display: block; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="#">
+    <fieldset>
+        <legend>User data</legend>
+        <label for="name">Enter name</label>
+        <input type="text" id="name" placeholder="enter name" name="name" maxlength="10" minlength="5">
+        <label>
+            <p>enter number</p>
+            <input type="number" name="number">
+        </label>
+        <label>
+            <input type="password" name="pass">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Company data</legend>
+        <label for="companyName">Enter Company name</label>
+        <label>
+            <input type="text" id="companyName" placeholder="enter name" name="companyName">
+        </label>
+        <label>
+            <p>enter number</p>
+            <input type="number" name="workNumber" value="1111111">
+        </label>
+        <label>
+            <input type="password" name="pass" disabled>
+        </label>
+    </fieldset>
+    <!--<input type="submit" value="отправить форму">-->
+    <!--<input type="reset" value="форму">-->
+    <fieldset>
+        <legend>checkboxes</legend>
+        <label>
+            <span>check1</span>
+            <input type="checkbox" name="chk1" checked>
+        </label>
+        <label>
+            <span>check2</span>
+            <input type="checkbox" name="chk2">
+        </label>
+        <label>
+            <span>check3</span>
+            <input type="checkbox" name="chk3">
+        </label>
+        <label>
+            <textarea name="subject"></textarea>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>radiobutton</legend>
+        <label>
+            <span>radio1</span>
+            <input type="radio" name="radio1" disabled>
+        </label>
+        <label>
+            <span>radio2</span>
+            <input type="radio" name="radio1" checked>
+        </label>
+        <label>
+            <span>radio3</span>
+            <input type="radio" name="radio1">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>select</legend>
+        <label>
+            <select name="select">
+                <option value="0">Item1</option>
+                <option value="1">Item2</option>
+                <option value="2">Item3</option>
+                <option value="3">Item4</option>
+            </select>
+        </label>
+    </fieldset>
+
+
+    <button type="submit">отправить форму</button>
+    <button type="reset">очистить форму</button>
+</form>
+</body>
+</html>

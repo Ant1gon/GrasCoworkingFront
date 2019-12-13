@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 20px;
+}
+img {
+  width: 100%;
+}
+
+.card {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.19);
+  &__img {
+    margin-bottom: 20px;
+
+    padding: 10px;
+    img {
+      border-bottom: 5px solid silver;
+      padding-bottom: 20px;
+
+    }
+  }
+  &__content {
+    padding: 10px;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px -15px;
+
+}
+.col {
+  border: 1px solid silver;
+  margin: 0 15px;
+}
+
+$gutter: 30px;
+.col-lg-1 {
+  $colCount: 1;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-2 {
+  $colCount: 2;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-3 {
+  $colCount: 3;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-4 {
+  $colCount: 4;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-5 {
+  $colCount: 5;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-6 {
+  $colCount: 6;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-7 {
+  $colCount: 7;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-8 {
+  $colCount: 8;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-9 {
+  $colCount: 9;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-10 {
+  $colCount: 10;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-11 {
+  $colCount: 11;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+.col-lg-12 {
+  $colCount: 12;
+  width: calc((100% / 12) * #{$colCount} - #{$gutter});
+}
+
+
+$breakPoint1: 800px;
+$breakPoint2: 600px;
+@media screen and ( max-width: $breakPoint1 ) {
+  .col-md-1 {
+    $colCount: 1;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-2 {
+    $colCount: 2;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-3 {
+    $colCount: 3;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-4 {
+    $colCount: 4;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-5 {
+    $colCount: 5;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-6 {
+    $colCount: 6;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-7 {
+    $colCount: 7;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-8 {
+    $colCount: 8;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-9 {
+    $colCount: 9;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-10 {
+    $colCount: 10;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-11 {
+    $colCount: 11;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-md-12 {
+    $colCount: 12;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+}
+@media screen and ( max-width: $breakPoint2 ) {
+  .col-sm-1 {
+    $colCount: 1;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-2 {
+    $colCount: 2;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-3 {
+    $colCount: 3;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-4 {
+    $colCount: 4;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-5 {
+    $colCount: 5;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-6 {
+    $colCount: 6;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-7 {
+    $colCount: 7;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-8 {
+    $colCount: 8;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-9 {
+    $colCount: 9;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-10 {
+    $colCount: 10;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-11 {
+    $colCount: 11;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+  .col-sm-12 {
+    $colCount: 12;
+    width: calc((100% / 12) * #{$colCount} - #{$gutter});
+  }
+}

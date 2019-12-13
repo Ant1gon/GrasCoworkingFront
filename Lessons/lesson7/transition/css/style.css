@@ -1,0 +1,21 @@
+.boxes {
+}
+.boxes__item {
+	width: 100px;
+	height: 100px;
+	background: red;
+	transform: translateX(0);
+	/*transition: transform .3s cubic-bezier(.17,1.8,.71,1.32) 1s;*/
+	transition: .3s;
+
+	/*
+	transition-prorepties;
+	transition-duration;
+	transition-timing-function;
+	transition-delay;
+	*/
+}
+
+.boxes:hover .boxes__item{
+	transform: translateX(400px);
+}

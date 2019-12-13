@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.19);
+  &__img {
+    margin-bottom: 20px;
+
+    padding: 10px;
+    img {
+      border-bottom: 5px solid silver;
+      padding-bottom: 20px;
+
+    }
+  }
+  &__content {
+    padding: 10px;
+  }
+}
+
+.btn-primary {
+  padding: 50px;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    /*height: 100%;*/
+}
+/*html {*/
+    /*font-size: 20px;*/
+/*}*/
+:root {
+   font-size: 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /*height: 50px;*/
+    /*height: 100%;*/
+    font-size: 30px;
+}
+.item {
+    height: 50%;
+    width: 70%;
+    background: silver;
+    font-size: 3rem;
+}
+.textItem {
+    font-size: 2em;
+}
+.imgItem {
+    width: 300px;
+}
+img {
+    width: 100vw;
+    height: 50vh;
+}

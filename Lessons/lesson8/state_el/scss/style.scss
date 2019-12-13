@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  .item {
+    width: 100%;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &__title {
+      padding: 10px;
+    }
+    &__content {
+      padding: 20px;
+      background: #d7d7d7;
+      display: none;
+    }
+    &-active {
+      .item__content {
+        display: block;
+      }
+    }
+  } // item
+}
+

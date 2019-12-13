@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.boxes {
+    border: 1px solid grey;
+    padding: 50px;
+	display: flex;
+	margin-top: 100px;
+}
+
+.boxes__item {
+	
+    /* animation-name: spin;  Имя анимации */
+    /* animation-duration: 4s;  Длительность одного цикла анимации */
+    /* animation-timing-function: ease-in-out; Функция прохождения анимации - скорость и время */
+    /* animation-delay: 1s;  задержка перед началом анимации */
+    /* animation-iteration-count: infinite;  количество повторений(циклов) анимации */
+    /* animation-direction: normal;  направление анимации (normal, reverse, alternate) */
+	/* animation-fill-mode: forwards; */
+    /* сокращенная запись ( порядок записи свойств важен ) */
+    
+	/*animation: jump .3s infinite;*/
+	
+	background: tomato;	
+    height: 50px;
+    width: 50px;
+	margin: 20px;
+	animation: animateJump 1s infinite;
+	border-radius: 50%;
+
+}
+.boxes__item:nth-child(1) {
+	animation-delay: .1s;
+}
+.boxes__item:nth-child(2) {
+	animation-delay: .2s;
+}
+.boxes__item:nth-child(3) {
+	animation-delay: .4s;
+}
+.boxes__item:nth-child(4) {
+	animation-delay: .5s;
+}
+.boxes__item:nth-child(5) {
+	animation-delay: .6s;
+}
+/*.boxes__item:hover {*/
+ 	/*animation-play-state: running;*/
+ /*}*/
+
+@keyframes animateJump {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	25% {
+		transform: translateY(-100px);
+	}
+	50% {
+		transform: translateY(100px);
+	}
+}
